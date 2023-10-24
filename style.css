@@ -107,8 +107,8 @@ body {
   font-family: canopee;
 }
 
-#elem1 h4 span{
-  background-color: #B43B12;
+#elem1 h4 span {
+  background-color: #b43b12;
   color: white;
   font-weight: 100;
   font-size: 18px;
@@ -116,7 +116,7 @@ body {
   border-radius: 5px;
 }
 
-#elem1 p{
+#elem1 p {
   font-size: 22px;
   font-family: domain;
   font-weight: 100;
@@ -130,8 +130,8 @@ body {
   font-family: canopee;
 }
 
-#elem3 h4 span{
-  background-color: #B43B12;
+#elem3 h4 span {
+  background-color: #b43b12;
   color: white;
   font-weight: 100;
   font-size: 18px;
@@ -139,21 +139,21 @@ body {
   border-radius: 5px;
 }
 
-#elem3 p{
+#elem3 p {
   font-size: 22px;
   font-family: domain;
   font-weight: 100;
   color: #656565;
 }
 
-#elem2 h2{
+#elem2 h2 {
   font-family: canopee;
   font-size: 75px;
   font-weight: 100;
   color: #252525;
 }
 
-#elem2 h3{
+#elem2 h3 {
   color: #393939;
   font-family: domain;
   font-size: 43px;
@@ -161,20 +161,20 @@ body {
   margin: 20px 0;
 }
 
-#elem2 h6{
+#elem2 h6 {
   color: #393939;
   font-family: domain;
   font-size: 20px;
   font-weight: 100;
 }
 
-#page1 h1{
+#page1 h1 {
   font-size: 550px;
   letter-spacing: -25px;
   font-weight: 100;
   font-family: canopee;
-  background-color: #1C1C19;
-  color: #C4BCB3;
+  background-color: #1c1c19;
+  color: #c4bcb3;
   line-height: 600px;
   width: 96%;
   height: 700px;
@@ -183,8 +183,61 @@ body {
   margin-top: 0;
 }
 
-#page2{
-  height: 150vh;
+#page2 {
+  height: 180vh;
   width: 100%;
-  background-color: #C4BCB3;
+  background-color: #c4bcb3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 90px 30px;
+}
+
+#page2-left {
+  height: 100%;
+  width: 30%;
+  /* background-color: red; */
+  padding-right: 40px;
+  border-image: 1px solid red;
+}
+#page2-left h2 {
+  font-size: 100px;
+  font-family: canopee;
+  line-height: 100px;
+  font-weight: 100;
+}
+#page2-left h2 span {
+  font-size: 150px;
+  font-weight: 900;
+}
+
+#page2-left img {
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+}
+#page2-left p {
+  font-size: 30px;
+  font-family: domain;
+  color: #2f2f2f;
+  margin-top: 20px;
+}
+#page2-left p span {
+  background-color: black;
+  color: wheat;
+  font-size: 50px;
+  margin-top: 5px;
+}
+
+
+#page2-right{
+  height: 100%;
+  width: 60%;
+  padding: 0 50px;
+  font-size: 20px;
+}
+
+#page2-righ img{
+  height: 60%;
+  object-fit: cover;
 }
